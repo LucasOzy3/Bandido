@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+html, body { 
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 5vh;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 2vh;
+    margin: 10px;
+    background-color: black;
+    color: white;
+    font-variant: small-caps;
+}
+
+p {
+    font-size: 1.5vh;
+    line-height: 2em;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.267);
+   
+}
+
+section {
+    
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.267);
+}
+
+section.imagem {
+
+    background-image: url(A.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: 6px 6px 13px 0px black;
+    background-size: cover;
+    background-color: black;
+    
+
+}
+
+section#img {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.295);
+    margin: 100vh 10px 10px 10px;
+
+}
+
+section.normal { 
+    background-color: white;
+    color: black;
+    box-shadow: 6px 6px 13px 0px black;
+}
